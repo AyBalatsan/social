@@ -1,0 +1,21 @@
+.avatarBlock{
+  grid-area: avatar;
+}
+.avatar{
+  width: 240px;
+  height: 240px;
+}
+.button{
+  display: block;
+  border: none;
+  width: 240px;
+  height: 40px;
+  background-color: #c1ebf1;
+  text-transform: uppercase;
+  &:hover{
+    color: goldenrod;
+  }
+  & + & {
+    margin-top: 5px;
+  }  
+}

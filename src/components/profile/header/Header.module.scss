@@ -1,0 +1,13 @@
+.header{
+  display: grid;
+  padding: 0 25px;
+  grid-template-rows: 40px auto;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+  "name name"
+  "avatar info";
+}
+.title{
+  grid-area: name;
+  margin: 0;
+}

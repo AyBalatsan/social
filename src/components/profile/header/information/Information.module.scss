@@ -1,0 +1,14 @@
+.information{
+  grid-area: info;
+}
+.infoList{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.infoItem{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+}

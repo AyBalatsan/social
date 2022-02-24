@@ -1,0 +1,17 @@
+.wrapper{}
+.list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 10px 25px 0 0;  
+}
+.item{
+  & + & {
+    margin-left: 10px;
+  }
+}
+.img{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
